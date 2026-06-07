@@ -1,0 +1,58 @@
+{
+  "alias": "luthas-org",
+  "name": "luthas-org-app",
+  "generatedAt": "2026-06-07T21:38:33.383Z",
+  "stack": [
+    "Next.js ^15",
+    "React ^19",
+    "Supabase",
+    "Tailwind",
+    "TypeScript",
+    "shadcn/ui"
+  ],
+  "entryPoints": [
+    "src/app/layout.tsx",
+    "src/app/page.tsx"
+  ],
+  "srcFileCount": 0,
+  "topDirectories": [
+    "src/app",
+    "src/entities",
+    "src/features",
+    "src/shared",
+    "src/widgets"
+  ],
+  "routes": [
+    "/",
+    "/blog",
+    "/blog/[slug]",
+    "/projects",
+    "/projects/[slug]",
+    "/about",
+    "/contact",
+    "/admin",
+    "/admin/posts",
+    "/admin/projects"
+  ],
+  "dbTables": [
+    "posts",
+    "post_categories",
+    "projects",
+    "pages",
+    "menus",
+    "contact_submissions",
+    "profiles",
+    "site_settings"
+  ],
+  "wpMigration": {
+    "source": "luthas.org",
+    "devDomain": "luthas-org.damieus.app",
+    "backup": "UpdraftPlus (Google Drive)"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  }
+}

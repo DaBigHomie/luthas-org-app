@@ -1,0 +1,6 @@
+[project]
+id = "luthas-org-app"
+
+[db]
+port = 54322
+shadow_port = 54320
